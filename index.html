@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+  <script src="./assets/script/request.js" type="module"></script>
+
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <h3 class="logo">Tickets</h3>
+      <ul class="nav-links">
+        <li>Movies</li>
+        <li>Theatre</li>
+        <li>About Us</li>
+        <li>My Account</li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="searchFields">
+    <form role="search" class="searchBars">
+      <input type="text" class="searchBar" id="movieSearch" placeholder="Search Movies..." name="q">
+      <datalist class="moviesList"></datalist>
+      <input type="text" class="searchBar" id="locationSearch" placeholder="Location" name="q">
+      <datalist class="citiesList"></datalist>
+      <button type="submit" class="searchButton">Search</button>
+    </form>
+  </div>
+
+  <main>
+    <div class="container">
+      <section class="moviePosters">
+      </section>
+    </div>
+  </main>
+</body>
+</html>

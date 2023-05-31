@@ -1,0 +1,98 @@
+@import "./reset.css";
+
+:root{
+  --app-bg-dark: #223342;
+  --app-white: #ffffff;
+  --app-red: #ff3c57;
+  --app-green: #33ab4e;
+  --app-blue: #3c57ff;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+}
+
+
+body {
+ background-color: #1a1c24;
+ color: #fff;
+}
+
+header{
+  background-color: #252833;
+  height: 4rem;
+  margin-bottom: 3rem;
+}
+
+.nav {
+  display: flex;
+  width: 80%;
+  height: inherit;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 30%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+
+li{
+  margin-left: 1rem;
+}
+
+.searchFields{
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.searchBar{
+  height: 2.3rem;
+  padding-left: 0.5rem;
+  border-radius: 3px;
+}
+
+form {
+  display:flex;
+  flex-direction:row;
+  padding:1px;
+}
+.searchButton {
+  position: absolute;
+  right: 10.3%;
+  width: 5rem;
+  height: 2rem;
+  color: white;
+  background-color: #5069c5;
+  border-radius: 3px;
+}
+#locationSearch{
+  width: 30%;
+  margin-left: 1rem;
+}
+#movieSearch{
+  width: 70%;
+
+}
+
+.moviePosters{
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.poster {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+  height: 225px;
+  flex-grow: 1;
+  border-radius: 6px;
+}
+
